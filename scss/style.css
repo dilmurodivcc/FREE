@@ -1,0 +1,36 @@
+:root {
+  --font-family: "20 Kopeek", sans-serif;
+  --second-family: "20 Kopeek Book", sans-serif;
+}
+
+:root {
+  --black: #181818;
+  --blue: #2b59c3;
+  --light-grey: #e5e5e5;
+  --dark-grey: #868686;
+  --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */
