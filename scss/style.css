@@ -1,6 +1,6 @@
 :root {
-  --font-family: "20 Kopeek", sans-serif;
-  --second-family: "20 Kopeek Book", sans-serif;
+  --font-family: "Raleway", sans-serif;
+  --second-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -33,4 +33,172 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.btn-trr {
+  border: 1px solid var(--white);
+  border-radius: 15px;
+  padding: 8px 30px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--white);
+}
+
+.btn-tr {
+  border: 1px solid var(--white);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: grid;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--white);
+  place-items: center;
+}
+
+.btn {
+  border: 2px solid var(--white);
+  border-radius: 40px;
+  background: var(--white);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--black);
+  padding: 22px 45px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+  width: 100%;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+header .logo p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--white);
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+.hero {
+  max-height: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url(../../images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: red;
+}
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  height: 100%;
+  width: 100%;
+}
+
+.content h1 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 55px;
+  margin-top: 200px;
+  line-height: 100%;
+  color: var(--black);
+  margin-bottom: 30px;
+}
+.content p {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 110%;
+  color: var(--black);
+  margin-bottom: 65px;
+}
+.content .btns {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.second {
+  margin-bottom: 150px;
+}
+.second .container {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+.second .line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.second h2 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: var(--black);
+  margin: 70px 0 15px 0;
+}
+.second p {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--black);
+}
+
+.with-img {
+  margin-bottom: 150px;
+}
+.with-img .container {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+.with-img img {
+  width: 100%;
+  height: auto;
+}
+.with-img .line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 40px;
+}
+.with-img h2 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: var(--black);
 }/*# sourceMappingURL=style.css.map */

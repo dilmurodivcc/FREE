@@ -1,3 +1,39 @@
 @use "../utils/variables" as *;
 @use "../utils/mixins" as *;
 @use "../base/reset" as *;
+
+.btn-trr {
+  border: 1px solid var(--white);
+  border-radius: 15px;
+  padding: 8px 30px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--white);
+}
+.btn-tr {
+  border: 1px solid var(--white);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: grid;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--white);
+  place-items: center;
+}
+.btn {
+  border: 2px solid var(--white);
+  border-radius: 40px;
+
+  background: var(--white);
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+color: var(--black);
+padding: 22px 45px;
+}

@@ -1,3 +1,110 @@
 @use "../utils/variables" as *;
 @use "../utils/mixins" as *;
 @use "../base/reset" as *;
+
+.hero {
+  max-height: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url(../../images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: red;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.content {
+  h1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 55px;
+    margin-top: 200px;
+    line-height: 100%;
+    color: var(--black);
+    margin-bottom: 30px;
+  }
+  p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 110%;
+    color: var(--black);
+    margin-bottom: 65px;
+  }
+  .btns {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+}
+
+.second {
+  margin-bottom: 150px;
+  .container {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+  }
+  .line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  h2 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 110%;
+    color: var(--black);
+    margin: 70px 0 15px 0;
+  }
+  p {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: var(--black);
+  }
+}
+
+.with-img{
+  margin-bottom: 150px;
+  .container{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+  }
+  img{
+    width: 100%;
+    height: auto;
+  }
+  .line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 40px;
+  }
+  h2{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 110%;
+    color: var(--black);
+  }
+}

@@ -1,3 +1,31 @@
 @use "../utils/variables" as *;
 @use "../utils/mixins" as *;
 @use "../base/reset" as *;
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+  width: 100%;
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    p {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 15px;
+      color: var(--white);
+    }
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+  }
+}
+
+
